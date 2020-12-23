@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "say-angular"
+  },
+  "targets": {
+    "say-angular": {
+      "hosting": {
+        "say-angular": [
+          "say-angular"
+        ]
+      }
+    }
+  }
+}

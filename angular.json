@@ -123,9 +123,16 @@
               "devServerTarget": "say-angular:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
     }
   },
-  "defaultProject": "say-angular"
+  "defaultProject": "say-angular",
+  "cli": {
+    "analytics": false
+  }
 }
